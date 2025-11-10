@@ -43,4 +43,8 @@ App runs at `http://localhost:3000`.
 ### Notes
 - On first API calls, seeds for teachers, classes, and sample videos are created.
 - Configure `VITE_API_BASE` in a `.env` file inside `frontend/` if the backend URL differs.
+###Contributors
+-@shubhmm19
+-@Shishir-Hegde14
+-@venkamita
 
