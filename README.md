@@ -45,7 +45,7 @@ App runs at `http://localhost:3000`.
 - Configure `VITE_API_BASE` in a `.env` file inside `frontend/` if the backend URL differs.
   
 ### Contributors
--Shubham Singh(PES1UG24CS451)
--Shishir Hegde(PES1UG24CS438)
--Sharat Doddihal(PES1UG24CS430)
+- Shubham Singh(PES1UG24CS451)
+- Shishir Hegde(PES1UG24CS438)
+- Sharat Doddihal(PES1UG24CS430)
 
