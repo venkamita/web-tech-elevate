@@ -1,0 +1,17 @@
+:root { --bg:#0f172a; --muted:#1f2937; --text:#e5e7eb; --brand:#22c55e; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial; background:var(--bg); color:var(--text); }
+a { color:inherit; text-decoration:none; }
+.container { max-width:1080px; padding:24px; margin:0 auto; }
+.nav { display:flex; gap:16px; align-items:center; padding:12px 24px; background:#111827; border-bottom:1px solid #334155; position:sticky; top:0; z-index:10; }
+.brand { font-weight:800; color:var(--brand); font-size:20px; }
+.spacer { flex:1; }
+.btn { background:var(--brand); border:none; padding:10px 14px; border-radius:8px; color:#052e16; font-weight:700; cursor:pointer; }
+.card { background:#0b1220; border:1px solid #1f2a44; border-radius:12px; padding:16px; }
+.grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); }
+.input { width:100%; padding:10px 12px; border-radius:8px; border:1px solid #334155; background:#0b1220; color:var(--text); }
+.stack { display:flex; flex-direction:column; gap:12px; }
+.row { display:flex; gap:12px; align-items:center; }
+.video { width:100%; border-radius:12px; }
+
+
