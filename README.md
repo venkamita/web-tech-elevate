@@ -1,4 +1,4 @@
-## Elevate (MERN) — D:\sem 3\web-tech-jackfruit
+## Elevate (MERN) 
 
 This project implements the 8 required pages using MongoDB, Express.js, Node.js, and React.js.
 
