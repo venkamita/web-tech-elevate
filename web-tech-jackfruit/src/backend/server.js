@@ -9,6 +9,7 @@ import teacherRoutes from "./src/routes/teachers.js";
 import classRoutes from "./src/routes/classes.js";
 import bookingRoutes from "./src/routes/bookings.js";
 import profileRoutes from "./src/routes/profile.js";
+import activityRoutes from "./src/routes/activity.js";
 
 dotenv.config();
 
@@ -27,6 +28,7 @@ app.use("/api/teachers", teacherRoutes);
 app.use("/api/classes", classRoutes);
 app.use("/api/bookings", bookingRoutes);
 app.use("/api/profile", profileRoutes);
+app.use("/api/activity", activityRoutes);
 
 const PORT = process.env.PORT || 5000;
 
